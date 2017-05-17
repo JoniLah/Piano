@@ -229,7 +229,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/e.wav"));
+            audio = getClass().getResourceAsStream("/snd/e.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -241,7 +241,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/c.wav"));
+            audio = getClass().getResourceAsStream("/snd/c.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -253,7 +253,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/d.wav"));
+            audio = getClass().getResourceAsStream("/snd/d.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -265,7 +265,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/f.wav"));
+            audio = getClass().getResourceAsStream("/snd/f.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -277,7 +277,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/g.wav"));
+            audio = getClass().getResourceAsStream("/snd/g.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -289,7 +289,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/a.wav"));
+            audio = getClass().getResourceAsStream("/snd/a.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -301,7 +301,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/b.wav"));
+            audio = getClass().getResourceAsStream("/snd/b.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -313,7 +313,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/c#.wav"));
+            audio = getClass().getResourceAsStream("/snd/c#.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -325,7 +325,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/d#.wav"));
+            audio = getClass().getResourceAsStream("/snd/d#.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -337,7 +337,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/f#.wav"));
+            audio = getClass().getResourceAsStream("/snd/f#.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -349,7 +349,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/g#.wav"));
+            audio = getClass().getResourceAsStream("/snd/g#.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
@@ -361,7 +361,7 @@ public class PianoGUI extends javax.swing.JFrame {
         InputStream audio;
         
         try {
-            audio = new FileInputStream(new File("src/snd/bb.wav"));
+            audio = getClass().getResourceAsStream("/snd/bb.wav");
             AudioStream music = new AudioStream(audio);
             AudioPlayer.player.start(music);
         } catch (Exception exc) {
